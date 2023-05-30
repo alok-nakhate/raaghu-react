@@ -19,7 +19,7 @@ export interface RdsNavtabsProps {
   justified?: boolean;
   activeNavtabOrder?: (id: any) => void;
   //Addded isNextPressed and activeNavTabId prop for changing active tab in page when next is pressed.
-  activeNavTabId?: number;
+  activeNavTabId?: string;
   isNextPressed?: boolean;
   onClick?: React.MouseEvent<HTMLElement>;
 }
